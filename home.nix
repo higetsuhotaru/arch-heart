@@ -7,6 +7,7 @@
 
   home.packages = with pkgs; [
     # system tools
+    which
     neovim   
     eza
   ];
