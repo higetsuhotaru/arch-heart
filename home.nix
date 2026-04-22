@@ -8,6 +8,7 @@
   home.packages = with pkgs; [
     # system tools
     neovim   
+    eza
   ];
 
   programs.home-manager.enable = true;
