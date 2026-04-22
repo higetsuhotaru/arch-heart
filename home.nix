@@ -10,6 +10,9 @@
     which
     neovim   
     eza
+
+    # screen tools
+    brightnessctl
   ];
 
   programs.bash = {
@@ -17,9 +20,9 @@
 
     shellAliases ={
       # ls
-      ls = "eza --icons";
-      ll = "eza -lF --icons --time-style=iso";
-      la = "eza -lAF --icons --time-style=iso";
+      ls = "eza";
+      ll = "eza -lF --time-style=iso";
+      la = "eza -lAF --time-style=iso";
     };
   };
 
