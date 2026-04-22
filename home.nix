@@ -13,6 +13,13 @@
 
   programs.bash = {
     enable = true;
+
+    shellAliases ={
+      # ls
+      ls = "eza --icons";
+      ll = "eza -lF --icons --time-style=iso";
+      la = "eza -lAF --icons --time-style=iso";
+    };
   };
 
   programs.home-manager.enable = true;
