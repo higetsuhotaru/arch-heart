@@ -8,7 +8,7 @@
   home.packages = with pkgs; [
     # system tools
     which
-    neovim   
+    vim   
     eza
     blesh
     zoxide
