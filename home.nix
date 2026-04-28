@@ -7,8 +7,6 @@
 
   home.packages = with pkgs; [
     # system tools
-    which
-    vim   
     eza
     blesh
     zoxide
