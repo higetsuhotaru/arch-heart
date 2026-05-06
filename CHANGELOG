@@ -4,3 +4,4 @@
 - v1.0 eza, a tool replaced with ls.
 - v1.0 blesh, a line editor.
 - v1.0 zoxide, a tool replaced with cd.
+- v1.0 alias home-manager, add `home-manager update` to bash funcs.
