@@ -43,6 +43,15 @@
         local dir
         dir=$(zoxide query -l | fzf --preview 'eza -lhF --time-style=iso {}') && z "$(dir)"  
       } 
+
+      # home-manager funs
+      home-manager() {
+        if [ "$1" = "update" ]; then
+          command home-manager switch --flake ~/.config/home-manager
+        else
+          command home-manager "$@"
+        fi
+      }
       
       # execute finally
       [[ ! ''${BLE_VERSION-} ]] || ble-attach
