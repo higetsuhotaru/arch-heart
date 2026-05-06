@@ -11,9 +11,6 @@
     blesh
     zoxide
     fzf
-    
-    # screen tools
-    brightnessctl
   ];
 
   programs.bash = {
